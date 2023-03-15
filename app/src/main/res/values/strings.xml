@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright 2017 Keval Patel.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <!--Title of the screens-->
+    <string name="title_home_activity">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera_frag_btn_grant_access">Grant Permission</string>
+    <string name="camera_frag_permission_denied_statement">Camera permission is not available.</string>
+    <string name="dashboard_error_no_camera_found">Your device doesn\'t have the camera.</string>
+    <string name="image_classifier_frag_error_camera_open">Error opening the camera.</string>
+    <string name="image_classifier_frag_error_no_front_camera">Your device doesn\'t have front camera.</string>
+    <string name="image_classifier_frag_error_save_image">Cannot save the captured image.</string>
+    <string name="image_classifier_frag_error_image_detection_failed">Image detection failed.</string>
+    <string name="suggestions_heading">Suggestions:</string>
+
+    <string name="model_downloading_notification_title_template">Model downloading: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="model_downloading_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="image_classifire_frag_additional_download_explain">Image recognition requires additional 60MB to download. Do you want to download now?</string>
+    <string name="image_classifire_frag_btn_download">Download</string>
+    <string name="model_downloading_notification_title">Downloading image recognition models</string>
+    <string name="image_classifire_download_progressbar_message">Downloading data...</string>
+    <string name="model_download_service_error_download">Cannot download. Please try again.</string>
+    <string name="info_activity_error_label">No labels found.</string>
+    <string name="info_activity_transition_name">info_transition</string>
+    <string name="wiki_helper_no_info_found">No info found.</string>
+</resources>
